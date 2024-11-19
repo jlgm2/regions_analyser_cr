@@ -16,7 +16,7 @@ regions = st.sidebar.multiselect(
 # Dropdown for selecting Alkali Sorbent
 alkali_sorbent = st.sidebar.selectbox(
     "Select Alkali Sorbent:",
-    options=[
+    options=['Conventional lime (commercial)',
         'Lime produced using clean fuels and electricity',
         'Lime as tailing by-products from mining operations (generic)',
         'Lime, regenerated using thermal calcination',
